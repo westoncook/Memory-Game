@@ -1,0 +1,104 @@
+#game article {
+  border: 3px solid slateblue;
+  border-radius: 4px;
+  width: 22.5%;
+  height: 125px;
+  margin: 1%;
+  display: inline-block;
+  transition: 500ms;
+}
+
+#game{
+  position:relative;
+  transition: 500ms
+}
+
+body{
+  background-color:lightskyblue;
+}
+
+h1{
+  font-family: fantasy;
+  text-align: center;
+  color:slateblue;
+  font-size:1200%;
+  transition: 500ms;
+}
+
+.gone{
+  opacity: 0;
+  height:0;
+  font-size: 0pt;
+}
+
+
+h2{
+  position: absolute;
+  top:50%;
+  left: 50%;
+  transform: translate(-50%,-90%);
+  font-size: 80pt;
+  font-family: fantasy;
+  text-align: center;
+  color:white;
+  text-shadow: black 0px 0px 2px;
+  transition: 1000ms;
+}
+
+.header{
+  position:relative;
+  border: 3px solid slateblue;
+  border-radius: 6px;
+  background-color:palegreen;
+  height: 35px;
+  text-align: center;
+  margin: 10px 300px 10px 300px;
+  font-family: fantasy;
+}
+
+.bestbtn{
+  background-color:palegreen;
+  color:slateblue;
+  font-size: 15pt;
+  border:palegreen;
+  width:unset;
+  font-family: fantasy;
+  border-radius: 4px;
+}
+
+.resetbtn{
+  background-color: slateblue;
+  color: palegreen;
+  font-size: 15pt;
+  border:palegreen;
+  width:unset;
+  font-family: fantasy;
+  border-radius: 4px;
+  width: 7rem;
+}
+
+#score{
+  font-size: 15pt;
+  position:absolute;
+  left: 4%;
+  top: 12%;
+  color:slateblue;
+}
+
+.start{
+  border-radius: 4px;
+  background-color:slateblue;
+  width: 8rem;
+  kerning: 10px;
+  color: palegreen;
+  font-family:fantasy;
+  font-size: 17pt;
+}
+
+#best-score{
+  font-size: 15pt;
+  position: absolute;
+  right:4%;
+  top: 12%;
+  color:slateblue;
+}
